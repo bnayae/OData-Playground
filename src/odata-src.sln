@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OData-Fx", "OData-Fx", "{226E65D7-C275-45ED-8475-B3CA81531A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataFx", "ODataFx\ODataFx.csproj", "{A0694468-6039-4D8B-89B4-3756101AEF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataCore", "ODataCore\ODataCore.csproj", "{B4B3378F-158C-4355-94C3-EC8E96F972B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0694468-6039-4D8B-89B4-3756101AEF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0694468-6039-4D8B-89B4-3756101AEF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0694468-6039-4D8B-89B4-3756101AEF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0694468-6039-4D8B-89B4-3756101AEF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B3378F-158C-4355-94C3-EC8E96F972B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B3378F-158C-4355-94C3-EC8E96F972B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B3378F-158C-4355-94C3-EC8E96F972B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B3378F-158C-4355-94C3-EC8E96F972B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0694468-6039-4D8B-89B4-3756101AEF2A} = {226E65D7-C275-45ED-8475-B3CA81531A08}
+		{B4B3378F-158C-4355-94C3-EC8E96F972B8} = {226E65D7-C275-45ED-8475-B3CA81531A08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05046D5-B18D-49DD-B24B-B89413D71098}
+	EndGlobalSection
+EndGlobal
